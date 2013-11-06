@@ -4,7 +4,7 @@ defmodule TestWeber_2.Main do
 
   layout false
   def action([]) do
-    {:render, [project: "test_weber_2"], []}
+    {:redirect, "/index.html"}
   end
         
 end
