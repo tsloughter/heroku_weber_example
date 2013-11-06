@@ -11,7 +11,7 @@ defmodule TestWeber_2.Mixfile do
 
   def application do
     [
-      applications: [:weber],
+      applications: [],
       mod: {TestWeber_2, []}
     ]
   end
