@@ -14,9 +14,12 @@ defmodule Config do
       [ws_port: list_to_integer(:os.getenv("PORT")),
        ws_mod: :Handler
       ],
+    use_internationalization: false,
     localization:
-      [default_locale: :en_US
+      [default_locale: :en_US,
+       use_locales: [:en_US]
       ],
+    use_sessions: false,
     session:
       [max_age: 1440
       ]
